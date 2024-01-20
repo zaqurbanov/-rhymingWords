@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+height: 100vh;
 }
 .container{
-    background-color: cadetblue;
+    background-color:#717171;
     max-width: 50vw;
     margin: auto;
     padding: 10px;
@@ -14,11 +22,18 @@
     justify-content: flex-start;
     align-items: center;
     text-align: center;
+    border-radius: 2.671px;
+   
+
+box-shadow: 0px 2.671px 5.342px 0px rgba(171, 190, 209, 0.40);
+}
+h1{
+    color: #F5F7FA;
 }
 input{
     padding: 3px 4px;
     border-radius: 5px;
-border: none;    outline: 1px solid red;
+border: none;    outline: 1px solid #C8E6C9;
 
 }
 ul{
@@ -27,16 +42,15 @@ ul{
     flex-wrap: wrap;
     gap: 10px;
     padding: 5px;
-    background-color: aquamarine;
+    background-color: #F5F7FA;
     border-radius: 2px;
-    -webkit-box-shadow: 1px -1px 20px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 1px -1px 20px 0px rgba(0,0,0,0.75);
-box-shadow: 1px -1px 20px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2.671px 5.342px 0px rgba(171, 190, 209, 0.40);
 }
 
 li{
-    background-color: rgb(67, 201, 156);
+    background-color: #4CAF4F;
     padding: 5px;
+    color: white;
 }
 
 .list-item{
@@ -51,15 +65,16 @@ li{
 .new-list-item{
     border-radius: 10px;
     padding: 7px;
-    background-color: burlywood;
+    background-color: #388E3B;
+    color: white;
 
 }
 button{
         padding: 5px 7px;
         border-radius: 5px;
         border: none;
-        background-color: blueviolet;
-        color: aliceblue;
+        background-color:#1B5E1F;
+        color: #E8F5E9;
         font-size: large;
         cursor: pointer;
 }
